@@ -1,0 +1,35 @@
+.lk-client{
+  padding:100px ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:#f7f7f7 ;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.lk-client-number{
+    font-size: 25px;
+    font-weight: 900;
+}
+.lk-client-son1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.lk-client-h3{
+    font-size: 16px;
+    color: #748182;
+    font-weight: 600;
+}
+.lk-clint-icon{
+    color: #343434;
+    font-size: 30px;
+}
+@media(max-width:992px){
+    .lk-client{
+        flex-direction: column;
+        gap: 30px;
+    }
+}
