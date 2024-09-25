@@ -45,6 +45,7 @@
     flex-wrap: wrap;
     row-gap: 20px;
     gap: 15px;
+    margin-bottom: 30px;
 }
 .lk-link-img{
     margin-left: 0 !important;
@@ -53,6 +54,7 @@
    width: 370px;
    position: relative;
    overflow: hidden;
+   margin-bottom: 20px;
 
 }
 .lk-card-task-img{
