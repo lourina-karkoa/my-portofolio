@@ -117,7 +117,7 @@ return () => clearInterval(interval);
   return (
     <>
    
-    <div className='lk-about'>
+    <div className='lk-about' id="About">
         <div className='lk-about-div-img'  data-aos="fade-down"><img className='lk-about-img' src={lolo}/></div>
 
         <div className='lk-about-son1' data-aos="fade-up" >

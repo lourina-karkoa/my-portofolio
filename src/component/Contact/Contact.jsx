@@ -18,7 +18,7 @@ let contactData=[
   },[])
   return (
     <>
-    <div className="lk-content">
+    <div className="lk-content" id="Contact">
         <h2 className="lk-content-h2">Contact Me.</h2>
         <div className="lk-contact-cards">
         {contactData.map(item =>{

@@ -25,7 +25,7 @@ export default function Services() {
     ]
   return (
     <>
-    <div className="lk-services">
+    <div className="lk-services" id="Services">
         <h2 className="lk-services-h2">Services.</h2>
         <div className='lk-serv-cards'>
         {dataCard.map(item =>{

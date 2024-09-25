@@ -113,7 +113,7 @@ export default function Work() {
   }
   return (
     <>
-    <div className='lk-portofolio'>
+    <div className='lk-portofolio' id="Work">
         <h2  className='lk-portofolio-h2'>Portfolio.</h2>
         <div className='lk-portofolio-buttons'>
         <button onClick={()=>{LKchangshapO();setItem(tasks)}} className={lkchangeO ? 'lk-portofolio-button' : 'lk-portofolio-cover'}>ALL</button>

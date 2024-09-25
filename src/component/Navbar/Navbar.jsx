@@ -33,16 +33,16 @@ export default function Navbarr() {
            
           </Nav>
           <div className='lk-nav-son2 d-flex justify-content-evenly'>
-              <NavLink className='lk-navbar-add' href='home'>Home</NavLink>
-              <NavLink className='lk-navbar-add' href='About'>About</NavLink>
-              <NavLink className='lk-navbar-add' href='Services'>Services</NavLink>
-              <NavLink className='lk-navbar-add' href='Work'>Work</NavLink>
-              <NavLink className='lk-navbar-add' href='Contact'>Contact</NavLink>
+          <Nav.Link href="#home" className='lk-navbar-add'>Home</Nav.Link>
+          <Nav.Link href="#About" className='lk-navbar-add'>About</Nav.Link>
+          <Nav.Link href="#Services" className='lk-navbar-add'>Services</Nav.Link>
+          <Nav.Link href="#Work" className='lk-navbar-add'>Work</Nav.Link>
+          <Nav.Link href="#Contact" className='lk-navbar-add'>Contact</Nav.Link>
             </div>
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <div className='lk-hero'>
+    <div className='lk-hero' id='home'>
       <h1 className='lk-hero-basic-h1'>Hello</h1>
       <div className='lk-hero-son1'>
       <h1 className='lk-hero-h1'>I AM 
