@@ -25,7 +25,22 @@ import { faLink } from '@fortawesome/free-solid-svg-icons'
 export default function Work() {
  
   let tasks =[
-    
+    {id:'15',img:task18,linkto:'https://raghadalalai1.github.io/Eduvi-project/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'ME'},
+    {id:'16',img:task19,linkto:' https://lourina-karkoa.github.io/Task3Adv/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'2',img:task2,linkto:' https://lourina-karkoa.github.io/task3/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'17',img:task20,linkto:' https://lourina-karkoa.github.io/Tas4-Adv/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'4',img:task4,linkto:'https://lourina-karkoa.github.io/task5/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'7',img:task7,linkto:'https://lourina-karkoa.github.io/task8/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'9',img:task9,linkto:'https://lourina-karkoa.github.io/Bakery/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'ME'},
+    {id:'10',img:task10,linkto:'https://lourina-karkoa.github.io/calcolater/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'ME'},
+    {id:'11',img:task11,linkto:'https://lourina-karkoa.github.io/restorant/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'other'},
+    {id:'12',img:task12,linkto:'https://lourina-karkoa.github.io/computer-bootstrap/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'other'},
+    {id:'13',img:task16,linkto:'https://lourina-karkoa.github.io/dahpord-localStorg/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'other'},
+    {id:'14',img:task17,linkto:'https://lourina-karkoa.github.io/animation/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'ME'},
+    {id:'1',img:task1,linkto:' https://lourina-karkoa.github.io/task2/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'3',img:task3,linkto:'https://lourina-karkoa.github.io/task4/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'5',img:task5,linkto:'https://lourina-karkoa.github.io/task6/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'8',img:task8,linkto:'https://lourina-karkoa.github.io/task9/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
     {id:'6',img:task6,linkto:'https://lourina-karkoa.github.io/task7/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
   ]
 
