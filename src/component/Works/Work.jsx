@@ -20,13 +20,17 @@ import task17 from './../../../public/tasks/task17.png'
 import task18 from './../../../public/tasks/task18.png'
 import task19 from './../../../public/tasks/task19.png'
 import task20 from './../../../public/tasks/task20.png'
+import task21 from './../../../public/tasks/21.png'
+import task22 from './../../../public/tasks/22.png'
 import { NavLink } from 'react-bootstrap'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 export default function Work() {
  
   let tasks =[
     {id:'15',img:task18,linkto:'https://raghadalalai1.github.io/Eduvi-project/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'ME'},
-    {id:'16',img:task19,linkto:' https://lourina-karkoa.github.io/Task3Adv/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'16',img:task19,linkto:'https://lourina-karkoa.github.io/Task3Adv/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'18',img:task21,linkto:'https://lourina-karkoa.github.io/Task5-Adv/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
+    {id:'19',img:task22,linkto:'https://github.com/lourina-karkoa/Task6-Adv.git',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},   
     {id:'2',img:task2,linkto:' https://lourina-karkoa.github.io/task3/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
     {id:'17',img:task20,linkto:' https://lourina-karkoa.github.io/Tas4-Adv/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
     {id:'4',img:task4,linkto:'https://lourina-karkoa.github.io/task5/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
@@ -113,7 +117,7 @@ export default function Work() {
   }
   return (
     <>
-    <div className='lk-portofolio' id="Work">
+    <div to={"#Work"} className='lk-portofolio' id="Work">
         <h2  className='lk-portofolio-h2'>Portfolio.</h2>
         <div className='lk-portofolio-buttons'>
         <button onClick={()=>{LKchangshapO();setItem(tasks)}} className={lkchangeO ? 'lk-portofolio-button' : 'lk-portofolio-cover'}>ALL</button>

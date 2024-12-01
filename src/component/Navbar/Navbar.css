@@ -80,15 +80,31 @@
     transform: translate(-50%,-50%);
     font-size: 20px;
 }
+.lk-NAVEBAR{
+    position: fixed;
+    width: 100%;
+    z-index: 99999;
+}
+.LKbg-window{
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    background-color: rgba(0, 0, 0, 0.3) !important;
+    /* color: white; */
+}
+/* .LKbg-window .lk-window,.LKbg-window .navbar-toggler-icon {
+    color: white !important;
+} */
+.lk-nav-comm{
+    flex-direction: column !important;
+    align-items: center;
+    row-gap: 15px;
+    border-radius: 20px;
+}
+
 @media(max-width:991px){
     .lk-nav-son2{
-        flex-direction: column !important;
-        align-items: center;
-        row-gap: 15px;
         background-color: #ffffff63;
-        /* z-index: 99; */
-        border-radius: 20px;
     }
+    
     .lk-navbar-add{
         margin-left: 0 !important;
     }

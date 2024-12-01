@@ -52,9 +52,9 @@ const [value3, setValue3] = useState(20);
 useEffect(() => {
   const interval = setInterval(() => {
     setValue3((prevValue) => {
-      if (prevValue >= 80) {
+      if (prevValue >= 85) {
         clearInterval(interval);
-        return 80;
+        return 85;
     }
     return prevValue + 3;
   });
@@ -69,9 +69,9 @@ const [value4, setValue4] = useState(20);
 useEffect(() => {
   const interval = setInterval(() => {
     setValue4((prevValue) => {
-      if (prevValue >= 85) {
+      if (prevValue >= 95) {
         clearInterval(interval);
-        return 85;
+        return 95;
     }
     return prevValue + 4;
   });
@@ -117,7 +117,7 @@ return () => clearInterval(interval);
   return (
     <>
    
-    <div className='lk-about' id="About">
+    <div to={"#About"} className='lk-about' id="About">
         <div className='lk-about-div-img'  data-aos="fade-down"><img className='lk-about-img' src={lolo}/></div>
 
         <div className='lk-about-son1' data-aos="fade-up" >
@@ -177,7 +177,7 @@ return () => clearInterval(interval);
         </span>
       </div>
     </div>
-
+    
     <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
       <div className=''
         style={{
@@ -203,7 +203,31 @@ return () => clearInterval(interval);
         </span>
       </div>
     </div>
-
+    <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
+      <div className=''
+        style={{
+          width: `${value4}%`,
+          height: '100%',
+          backgroundColor: '#000',
+          transition: 'width 0.1s ease-in-out',
+          position: 'relative',
+          borderRadius:'10px',
+        }}
+      >
+        <span className='skills-p'>Tailwind</span>
+        <span
+          style={{
+            position: 'absolute',
+            right: '10px',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            color: 'white',
+          }}
+        >
+          {value4}%
+        </span>
+      </div>
+    </div>
 
     <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
       <div className=''
@@ -257,7 +281,56 @@ return () => clearInterval(interval);
         </span>
       </div>
     </div>
-
+    <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
+      <div className=''
+        style={{
+          width: `${value3}%`,
+          height: '100%',
+          backgroundColor: '#000',
+          transition: 'width 0.1s ease-in-out',
+          position: 'relative',
+          borderRadius:'10px',
+        }}
+      >
+        <span className='skills-p'>Redux Toolkit</span>
+        <span
+          style={{
+            position: 'absolute',
+            right: '10px',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            color: 'white',
+          }}
+        >
+          {value3}%
+        </span>
+      </div>
+    </div>
+    <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
+      <div className=''
+        style={{
+          width: `${value3}%`,
+          height: '100%',
+          backgroundColor: '#000',
+          transition: 'width 0.1s ease-in-out',
+          position: 'relative',
+          borderRadius:'10px',
+        }}
+      >
+        <span className='skills-p'>Next Js</span>
+        <span
+          style={{
+            position: 'absolute',
+            right: '10px',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            color: 'white',
+          }}
+        >
+          {value3}%
+        </span>
+      </div>
+    </div>
     <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
       <div className=''
         style={{
@@ -269,6 +342,7 @@ return () => clearInterval(interval);
           borderRadius:'10px',
         }}
       >
+        
         <span className='skills-p'>Git & GitHub</span>
         <span
           style={{

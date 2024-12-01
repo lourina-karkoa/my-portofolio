@@ -7,7 +7,7 @@
     margin-top: 50px;
 }
 .lk-about-div-img{
-    height: 550px;
+    height: 580px;
     border-radius: 10px;
     background-color: #474744;   
 }
@@ -19,11 +19,13 @@
 }
 .lk-about-son1 h2{
     font-weight: 700;
+    font-size: 20px;
 }
 .lk-about-son1 p{
-    font-size: 20px;
+    font-size: 18px;
     opacity: 0.7;
     width: 750px;
+    margin-bottom: 5px;
 }
 .lk-about-son1 .lk-name{
     font-weight:700;
@@ -32,7 +34,7 @@
     box-shadow: 0 0 10px rgba(0, 0,0, 0.3);
     border-radius: 10px;
     border:1px solid rgba(0,0,0,0.5);
-    margin-bottom: 20px;
+    margin-bottom: 12px;
     
 }
 .skills span{
