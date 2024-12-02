@@ -7,7 +7,7 @@
     margin-top: 50px;
 }
 .lk-about-div-img{
-    height: 580px;
+    height: 570px;
     border-radius: 10px;
     background-color: #474744;   
 }
@@ -34,7 +34,7 @@
     box-shadow: 0 0 10px rgba(0, 0,0, 0.3);
     border-radius: 10px;
     border:1px solid rgba(0,0,0,0.5);
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     
 }
 .skills span{
@@ -50,7 +50,7 @@
     border: 1px solid rgba(0,0,0,0.5);
     box-shadow: 0 0 10px rgba(0, 0,0, 0.3);
     width: 150px;
-    height: 50px;
+    height: 43px;
     border-radius: 10px;
     color: #333;
     opacity: 0.9;
