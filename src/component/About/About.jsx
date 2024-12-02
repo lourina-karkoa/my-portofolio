@@ -284,6 +284,31 @@ return () => clearInterval(interval);
     <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
       <div className=''
         style={{
+          width: `${value}%`,
+          height: '100%',
+          backgroundColor: '#000',
+          transition: 'width 0.1s ease-in-out',
+          position: 'relative',
+          borderRadius:'10px',
+        }}
+      >
+        <span className='skills-p'>TypeScript</span>
+        <span
+          style={{
+            position: 'absolute',
+            right: '10px',
+            top: '50%',
+            transform: 'translateY(-50%)',
+            color: 'white',
+          }}
+        >
+          {value}%
+        </span>
+      </div>
+    </div>
+    <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
+      <div className=''
+        style={{
           width: `${value3}%`,
           height: '100%',
           backgroundColor: '#000',
