@@ -22,11 +22,13 @@ import task19 from './../../../public/tasks/task19.png'
 import task20 from './../../../public/tasks/task20.png'
 import task21 from './../../../public/tasks/21.png'
 import task22 from './../../../public/tasks/22.png'
+import task23 from './../../../public/tasks/task23.png'
 import { NavLink } from 'react-bootstrap'
 import { faLink } from '@fortawesome/free-solid-svg-icons'
 export default function Work() {
  
   let tasks =[
+    {id:'23',img:task23,linkto:'https://mohammadkerdasi.github.io/E-Learning/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'ME'},
     {id:'15',img:task18,linkto:'https://raghadalalai1.github.io/Eduvi-project/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'ME'},
     {id:'16',img:task19,linkto:'https://lourina-karkoa.github.io/Task3Adv/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
     {id:'18',img:task21,linkto:'https://lourina-karkoa.github.io/Task5-Adv/',icon:<FontAwesomeIcon className='img-icon' icon={faLink} />,category:'task'},
