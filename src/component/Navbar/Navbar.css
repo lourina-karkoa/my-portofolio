@@ -87,7 +87,7 @@
 }
 .LKbg-window{
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    background-color: rgba(0, 0, 0, 0.3) !important;
+    background-color: rgba(255, 255, 255 , 0.9) !important;
     /* color: white; */
 }
 /* .LKbg-window .lk-window,.LKbg-window .navbar-toggler-icon {

@@ -118,7 +118,9 @@ return () => clearInterval(interval);
     <>
    
     <div to={"#About"} className='lk-about' id="About">
-        <div className='lk-about-div-img'  data-aos="fade-down"><img className='lk-about-img' src={lolo}/></div>
+        {/* <div className='lk-about-div-img'  data-aos="fade-down">
+          <img className='lk-about-img' src={lolo}/>
+          </div> */}
 
         <div className='lk-about-son1' data-aos="fade-up" >
             <h2>About Me</h2>
@@ -126,7 +128,8 @@ return () => clearInterval(interval);
             <p>I am  <span className='lk-name'> Lourina Karkoa </span>I am a front-end developer trainee -  and a Communications and electronics engineer💻
             I speak English at advance level I have experience in front-end development with fully Responsive and I work with the react.js framework
             </p>
-            <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
+        
+            {/* <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
       <div className=''
         style={{
           width: `${value}%`,
@@ -150,8 +153,8 @@ return () => clearInterval(interval);
           {value}%
         </span>
       </div>
-    </div>
-
+    </div> */}
+{/* 
     <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
       <div className=''
         style={{
@@ -227,8 +230,8 @@ return () => clearInterval(interval);
           {value4}%
         </span>
       </div>
-    </div>
-
+    </div> */}
+{/* 
     <div className='skills' style={{ position: 'relative', width: '100%', height: '30px', backgroundColor: 'white' }}>
       <div className=''
         style={{
@@ -381,7 +384,7 @@ return () => clearInterval(interval);
           {value6}%
         </span>
       </div>
-    </div>
+    </div> */}
 
    
    <NavLink className='lk-about-buttons' href='https://www.linkedin.com/in/lourina-karkoa?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app'><button className='lk-about-button'>Contact Me</button></NavLink> 
@@ -389,8 +392,22 @@ return () => clearInterval(interval);
 
         </div>
 
-
-       
+        <div className='lk-S-part2'>
+          <h2>skils</h2>
+          <div className='LK-Parent-Skils'>
+            <div className='lk-SkilsLK'>React.js</div>
+          <div className='lk-SkilsLK'>Next.js</div>
+          <div className='lk-SkilsLK'>Git & GitHub</div>
+          <div className='lk-SkilsLK'>TypeScript</div>
+          <div className='lk-SkilsLK'>Redux Toolkit</div>
+          <div className='lk-SkilsLK'>Tailwind CSS</div>
+          <div className='lk-SkilsLK'>BootStrap</div>
+          <div className='lk-SkilsLK'>Postman</div>
+          <div className='lk-SkilsLK'>Node.js</div>
+          <div className='lk-SkilsLK'>Express.js</div>
+          <div className='lk-SkilsLK'>MongoDB (Mongoose)</div>
+          </div>
+        </div>
 
 
     </div>
