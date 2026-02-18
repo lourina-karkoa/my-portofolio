@@ -82,6 +82,9 @@
         flex-wrap: wrap;
         justify-content: start;
     }
+    .LK-Parent-Skils{
+         justify-content: start;
+    }
     .lk-about-son1,.lk-about-son1 p{
         width: 100%;
     }
